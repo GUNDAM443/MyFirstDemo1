@@ -4,3 +4,11 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+
+  data:
+    mongodb:
+      host: 192.168.198.130
+      port: 27017
+      database: test
+      username: admin
+      password: '123456'
