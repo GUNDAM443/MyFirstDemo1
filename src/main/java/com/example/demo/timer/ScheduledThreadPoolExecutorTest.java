@@ -45,6 +45,7 @@ public class ScheduledThreadPoolExecutorTest {
             }
         };
         start = System.currentTimeMillis();
+        newScheduledThreadPool.execute(task1);
         newScheduledThreadPool.schedule(task1, 1000, TimeUnit.MILLISECONDS);
         newScheduledThreadPool.schedule(task2, 3000, TimeUnit.MILLISECONDS);
     }
